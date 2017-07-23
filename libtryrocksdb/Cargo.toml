@@ -11,4 +11,4 @@ libc = "*"
 
 [dependencies.rocksdb]
 git = "https://github.com/pingcap/rust-rocksdb.git"
-features = ["static-link"]
+#features = ["static-link"] // brew install rocksdb
