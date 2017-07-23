@@ -2,7 +2,7 @@ extern crate libc;
 extern crate rocksdb;
 
 use std::ffi::CStr;
-use rocksdb::{DB, Options}; // , Writable};
+use rocksdb::{DB, Options , Writable};
 
 static STORAGEPATH: &'static str = "dummy-storage-location";
 

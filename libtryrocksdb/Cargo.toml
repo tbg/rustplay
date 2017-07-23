@@ -8,8 +8,7 @@ crate-type = ["staticlib"] # staticlib or cdylib?
 
 [dependencies]
 libc = "*"
-rocksdb = "*"
 
-# [dependencies.rocksdb]
-# git = "https://github.com/pingcap/rust-rocksdb.git"
-#features = ["static-link"]
+[dependencies.rocksdb]
+git = "https://github.com/pingcap/rust-rocksdb.git"
+features = ["static-link"]
